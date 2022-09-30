@@ -1,0 +1,122 @@
+* {
+    padding: 0.1px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    font-family: Verdana,sans-serif;
+}
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+header h1 {
+    font-weight: 100;
+}
+main {
+    max-width: 512px;
+    margin: 10px auto;
+    padding: 0px 10px;
+}
+.tourCard {
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.7);
+    margin-bottom: 30px;
+}
+.tourImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.descriptionBox {
+    padding: 20px;
+}
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tourTitle {
+    font-weight: bold;
+}
+.tourCost {
+    display: inline-block;
+    background-color: #ECF9FF;
+    color: #6BA1C7;
+    font-weight: bold;
+    padding: 2px 5px;
+}
+.tourDescription {
+    text-indent: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.deleteButton {
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    padding: 10px;
+    font-weight: bold;
+    color: #9e1910;
+    border: 2px solid #9e1910;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.refreshButton {
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+
+/** bithdayRemainder
+body {
+    background-color: #eb4584;
+    font-size: 1rem;
+}
+.mainHeading {
+    margin-bottom: 15px;
+}
+.pageContainer {
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.8);
+    max-width: 512px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.personBoxContainer {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.personBoxContainer:last-child {
+    margin-bottom: 15px;
+}
+.personImage {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.personName {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.clearBtn {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    background-color: #eb4584;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+} */
