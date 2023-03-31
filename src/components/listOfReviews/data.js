@@ -1,0 +1,7 @@
+export const data =  [
+    {id: 1,name: 'john',role: 'frontend',about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",image: 'https://dergreif-online.de/www/wp-content/uploads/2016/07/Timothy_hoch.jpg'},
+    {id: 2,name: 'peter',role: 'backend',about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.",image: 'https://www.theportlandclinic.com/wp-content/uploads/2019/07/Person-Curtis_4x5-e1564616444404.jpg'},
+    {id: 3,name: 'parker',role: 'full stack',about:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s employer.",image: 'https://lixpressny.com/wp-content/uploads/2019/02/person1.jpg'},
+    {id: 4,name: 'tony',role: 'fontend',about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s developer.",image: 'https://ultraautoparts.com/wp-content/uploads/person-1.jpg'},
+    {id: 5,name: 'balu',role: 'html',about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the html developer.",image: 'https://raajratna.com/wp-content/uploads/2019/01/person4.jpg'}
+];

@@ -17,7 +17,9 @@ function ToursPageContainer() {
             <header>
                 <h1>{places.length !== 0 ? 'Our Tours' : 'No Tours Left'}</h1>
             </header>
-            <TourismSection places={places} deleteHandler={deleteHandler}/>
+            <DeleteCard.Provider value={deleteHandler}>
+                <TourismSection places={places} deleteHandler={deleteHandler}/>
+            </DeleteCard.Provider>
             {places.length === 0 && <button className={styles.refreshButton} onClick={() => setPlaces(Data)}>Refresh</button>}
         </main>
     )
